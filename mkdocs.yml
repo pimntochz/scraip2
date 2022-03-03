@@ -1,0 +1,57 @@
+
+# Project information
+site_name: 'scraip site'
+site_url: https://pimntochz.github.io/scraip/
+
+# Page tree
+nav:
+  - Home: index.md
+  - Bus solutions:
+    - Bus solutions: bus-solutions/bus-solutions.md
+
+#Repository
+repo_name: pimntochz/scraip
+repo_url: https://github.com/pimntochz/scraip
+edit_uri: ""
+
+
+# Configuration
+theme:
+  name: material
+  palette:
+    primary:
+    accent:
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+
+  font:
+    text: Arial
+    code: Roboto Mono
+
+extra_css:
+  - styles/extra.css
+
+# Plugins
+plugins:
+  - search
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+
+  - toc:
+      permalink: true
+  - codehilite:
+      linenums: true
